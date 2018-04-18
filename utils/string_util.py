@@ -283,3 +283,7 @@ def cut_sentence(content):
         else:
             new_list = lst
         return "||".join(new_list).strip().lstrip(u'）').lstrip(u')').rstrip(u'(').rstrip(u'（')
+
+
+if __name__ == '__main__':
+    pass

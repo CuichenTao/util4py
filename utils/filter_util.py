@@ -249,3 +249,7 @@ def comment_filter(comment):
     if has_city_words(comment) or has_comment_words(comment) or is_invalid_comment_len(comment) or is_age(comment) or is_time(comment) or has_invalid_chars(comment):
         return True
     return False
+
+
+if __name__ == '__main__':
+    pass
